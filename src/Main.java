@@ -1,5 +1,12 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args) {task1();}
+
+    public static void task1() {
+        // Задание 1
+
+
     }
+
+
+
 }
