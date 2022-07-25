@@ -5,6 +5,20 @@ public class Main {
         // Задание 1
 
 
+        for ( int i = 1; i <= 10; i++) {
+            System.out.print(i + " ");
+        }
+
+        System.out.println();
+
+        int b = 10;
+        while (b > 0) {
+            System.out.print(b + " ");
+            b--;
+        }
+
+
+
     }
 
 
