@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[] args) {task1();}
+    public static void main(String[] args) {task1(); task2();}
 
     public static void task1() {
         // Задание 1
@@ -16,8 +16,14 @@ public class Main {
             System.out.print(b + " ");
             b--;
         }
+    }
 
+    public static void task2() {
+        //Задание 2
 
+        for (int firstFriday = 1; firstFriday <= 31; firstFriday = firstFriday + 7) {
+            System.out.println("Сегодня пятница, " + firstFriday + "-е число. Необходимо подготовить отчет.");
+        }
 
     }
 
